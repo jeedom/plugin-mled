@@ -1,0 +1,12 @@
+{
+	"id" : "mled",
+	"name" : "Matrix LED",
+	"description" : "Plugin matrix LED",
+	"licence" : "AGPL",
+	"author" : "Loïc",
+	"require" : "3.0",
+	"category" : "communication",
+	"hasDependency" : true,
+	"changelog" : "https://github.com/jeedom/plugin-mled/blob/master/doc/#language#/changelog.asciidoc",
+	"documentation" : "https://github.com/jeedom/plugin-mled/blob/master/doc/#language#/index.asciidoc"
+}
