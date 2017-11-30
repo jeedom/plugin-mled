@@ -102,10 +102,10 @@ class mledCmd extends cmd {
 			$args['speed'] = 40;
 		}
 		if (!isset($args['pause'])) {
-			$args['pause'] = 1000;
+			$args['pause'] = 0;
 		}
 		$args['text'] = $_options['message'];
-		$cmd .= ' -m "' . str_replace('"', '\"', json_encode($args)) . '"';
+		$cmd .= ' -m "' . str_replace('"', '\"', json_encode($args, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE)) . '"';
 		log::add('mled', 'debug', $cmd);
 		com_shell::execute($cmd);
 	}
