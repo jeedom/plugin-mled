@@ -8,5 +8,7 @@
 	"category" : "communication",
 	"hasDependency" : true,
 	"changelog" : "https://github.com/jeedom/plugin-mled/blob/master/doc/#language#/changelog.asciidoc",
-	"documentation" : "https://github.com/jeedom/plugin-mled/blob/master/doc/#language#/index.asciidoc"
+	"documentation" : "https://github.com/jeedom/plugin-mled/blob/master/doc/#language#/index.asciidoc",
+	"language" : ["fr_FR","en_US","de_DE","sp_SP"],
+"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
 }
